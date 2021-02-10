@@ -1,0 +1,143 @@
+.imagem_banner{
+    background-color: coral;
+    height: 650px;
+    width: 100%;
+    display: block;
+    align-items: center;
+}
+
+.imagem_banner img{
+    display: block;
+    align-items: center;
+    height: 650px;
+    width: 100%;
+}
+/*Sobre*/
+.div1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 700px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.titulo1{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(54, 54, 54);
+    color: white;
+}
+
+.imagens_sobre{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.imagens_sobre img{
+    height: 180px;
+    padding: 40px;
+}
+.div1_coluna{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+/*Projetos*/
+.div2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 700px;
+    width: 100%;
+}
+.titulo2{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+.linha{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start, center;
+    height: 700px;
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+}
+.coluna1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    width: 50%;
+    background-color: rgb(87, 87, 87);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: black;
+}
+.coluna1:hover{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 700px;
+    width: 50%;
+    background-color: rgb(230, 230, 230);
+    transition: 2s;
+}
+.coluna1imagem img{
+    width: 150px;
+}
+
+
+
+.coluna2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    width: 50%;
+    background-color: rgb(87, 87, 87);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: white;
+}
+.coluna2:hover{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 700px;
+    width: 50%;
+    background-color: rgb(20, 20, 20);
+    transition: 2s;
+}
+.coluna2imagem img{
+    width: 150px;
+}
+
+
+/*Midia*/
+.div3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start, center;
+    height: 700px;
+    width: 100%;
+    background-color: rgb(22, 22, 22);
+}
+.titulo3{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}

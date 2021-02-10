@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(54, 54, 54);
+}
+
+.siteExercitoflex header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagemTopo {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding: 20px;
+}
+
+.imagemTopo img{
+    width: 180px;
+}
+
+.menu{
+    display: block;
+    padding: 10px;
+}
+
+.menu a{
+    text-decoration: none;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    color: black;
+}
+
+.menu ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.menu ul li a:hover{
+    display: block;
+    color: rgb(88, 88, 88);
+    transition: 0.9ms;
+    transform: 2s;
+    font-size: 15px;
+}
