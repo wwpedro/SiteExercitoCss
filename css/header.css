@@ -1,7 +1,3 @@
-body{
-    background-color: rgb(54, 54, 54);
-}
-
 .siteExercitoflex header{
     display: flex;
     flex-direction: column;
